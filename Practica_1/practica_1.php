@@ -90,6 +90,22 @@ necesarios">
           </div>";
         break;
 
+        case '2': echo "
+          <div class='callout callout-danger'>
+          <h4><i class='fa fa-fw fa-ban'></i> Validación correcta!</h4>
+          <p>El formato del email es correcto</p>
+          </div>";
+        break;
+
+
+        case '3': echo "
+          <div class='callout callout-danger'>
+          <h4><i class='fa fa-fw fa-ban'></i>  Error de Validación!</h4>
+          <p>EL correo no tiene el formato establecido.</p>
+          </div>";
+        break;
+
+
       }}
 
     ?>
